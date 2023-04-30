@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.top__wrapper {
+  width: 30%;
+  position: relative;
+}
+
+.top__wrapper h2 {
+  width: 100%;
+  height: 10rem;
+  position: absolute;
+  background: #ffff;
+  left: 17rem;
+  line-height: 1.5;
+}
+
+.top__wrapper small {
+  display: block;
+}
+
+.wrapper__img {
+  width: 70%;
+  margin-left: auto;
+}
+
+.wrapper__img img {
+  width: 100%;
+}

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+  --main-color: #005AA4;
+}
+
+body {
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+li {
+  list-style: none;
+}
+
+.section {
+  position: relative;
+}
+
+.color {
+  color: var(--main-color);
+}
+
+.ttl {
+  font-size: 2.5rem;
+  color: var(--main-color);
+  line-height: 1;
+}
+
+small {
+  display: inline;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.header-wrapper__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+}
+
+.header-wrapper__top__logo {
+  width: 20%;
+  margin-right: 15rem;
+}
+
+.header-wrapper__top__logo img {
+  width: 100%;
+}
+
+.header-wrapper__top__nav {
+  width: 10%;
+}
+
+.header-wrapper__top__nav__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-wrapper__top__nav__block__list__item {
+  writing-mode: vertical-rl;
+  margin: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.header-wrapper__top__nav__block__list__item:hover {
+  opacity: 0.7;
+}
+
+.btn__white {
+  font-size: 1.2rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 0.8rem 1rem;
+}
+
+.btn__white:hover {
+  opacity: 0.7;
+}
+
+.btn__white span {
+  font-size: 1.2rem;
+}
+
+.btn__blue {
+  position: relative;
+  font-size: 1.5rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  background-color: var(--main-color);
+  padding: 1.3rem 2rem;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.btn__blue span {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.btn__blue:hover {
+  opacity: 0.7;
+}
+
+/* CONTACT */
+.contact-wrapper {
+  text-align: center;
+  margin-top: 5rem;
+  height: 40vh;
+}
+
+.contact-wrapper p {
+  margin-top: 2rem;
+}
+
+.contact-wrapper__block__con__btn {
+  margin-top: 4rem;
+}
+
+/* FOOTER */
+.footer-wrapper {
+  background-color: #D9D9D9;
+}
+
+.footer-wrapper__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-wrapper__top__logo {
+  width: 15%;
+  margin-right: 15rem;
+}
+
+.footer-wrapper__top__logo img {
+  width: 100%;
+}
+
+.footer-wrapper__top__nav {
+  width: 10%;
+}
+
+.footer-wrapper__top__nav__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-wrapper__top__nav__block__list__item {
+  writing-mode: vertical-rl;
+  margin: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.footer-wrapper__top__nav__block__list__item:hover {
+  opacity: 0.7;
+}
+
+.footer__txt {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.footer__txt p {
+  padding: 0.5rem;
+  line-height: 0;
+}
+
+.footer-wrapper__add {
+  position: relative;
+  bottom: 4rem;
+  left: 3rem;
+}
+
+.footer-wrapper__add p {
+  font-weight: 600;
+}

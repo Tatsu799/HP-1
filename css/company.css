@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.company-wrapper__block {
+  display: flex;
+  justify-content: center;
+}
+
+.company-wrapper__list {
+  width: 60%;
+  margin: 5rem;
+}
+
+.company-wrapper__list__item {
+  font-size: 1.2rem;
+  display: flex;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 0 0 -1px;
+  padding: 3rem;
+}
+
+.company-wrapper__list__item span {
+  width: 15%;
+  margin-right: 30%;
+}
+
+.company-wrapper__list__item p {
+  width: 80%;
+}
